@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Contact Me</title>
+    <meta charset='UTF-8'>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="/assets/css/contact.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <body>
+        <!-- Navbar -->
+          <!-- Contact -->
+          <div class="container">
+            <h2 class="text-center">Contact Me</h2>
+            <form action="https://formspree.io/ole.koester@web.de" method="POST">
+              <div class="form-group">
+                <label for="email">
+                  E-mail
+                  <input type="text" name="email" class="email" />
+                </label>
+              </div>
+              <div class="form-group">
+                <label for="subject">
+                  Subject
+                  <input type="text" name="subject" class="subject" />
+                </label>
+              </div>
+              <div class="form-group">
+                <label for="message">
+                  Message
+                  <textarea name="message" class="message"></textarea>
+                </label>
+              </div>
+              <div class="status">
+
+              </div>
+              <button type="submit" class="submit"><span class="glyphicon glyphicon-send" style="font-size: 12px"></span>
+                Send
+              </button>
+            </form>
+          </div>
+    </body>
+</html>
+
