@@ -1,3 +1,5 @@
+
+
 button[type=submit] {
     background-color: rgb(25,25,25);
     color: rgb(226, 226, 226);
@@ -22,14 +24,15 @@ button[type=submit] {
     resize: vertical;
   }
   
-  .container {
+  #cnt {
     border-radius: 5px;
     background-color: #ffffff;
     padding: 20px;
+    margin: auto;
   }
 
-  body {
-    margin: 0;
+  #body {
+    margin: auto;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 24px;
   }
